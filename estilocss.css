@@ -1,0 +1,599 @@
+/* Estilos específicos para la página de periféricos */
+#body-perifericos {
+    font-family: "Verdana", sans-serif;
+    margin: 0;
+    padding: 0;
+background-color: #005b96;
+    color: #1c2526;
+}
+
+#perifericos-header {
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-negro-estilo-3d-capa-papel_206725-669.jpg?semt=ais_hybrid&w=740);
+    background-position: center;
+    background-size: 100%;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 10px;
+    border-bottom: 5px solid #ffab00; 
+}
+
+.perifericos-title {
+    margin: 0;
+    font-size: 2.5em;
+    padding: 10px;
+    text-transform: uppercase;
+    color: #FFD700; 
+  text-shadow: 
+    0 0 5px #FFD700,
+    0 0 10px #FFC700,
+    0 0 15px #FFB700,
+    0 0 20px #FFA500,
+    0 0 30px #FF8C00;
+  font-weight: bold;
+  background: linear-gradient(90deg, #FFD700, #FFA500);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.perifericos-img {
+    display: block;
+    margin: 20px auto;
+    border: 4px solid #ffab00;
+    border-radius: 8px;
+}
+
+.perifericos-caption {
+    font-style: italic;
+    color: #ffab00;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}
+
+#perifericos-links {
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+
+    
+ 
+}
+
+.perifericos-nav-link {
+    color: #005b96;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 8px 15px;
+    border: 2px solid #ffab00;
+    border-radius: 10px;
+    display: inline-block;
+     border: 2px solid #FFD700; 
+  box-shadow:
+    0 0 5px #FFD700,
+    0 0 10px #FFEA00,
+    0 0 15px #FFFF00,
+    0 0 20px #FFFF33,
+    0 0 30px #FFFF66;
+  
+  background-color: #111; 
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+   text-shadow: 
+    0 0 2px #ffffff,
+    0 0 4px rgba(255, 255, 255, 0.4),
+    0 0 6px rgba(255, 255, 255, 0.2);
+ 
+  
+  
+
+     
+}
+
+
+.perifericos-nav-link:hover {
+    background-color: #ffab00;
+    color: #ffffff;
+}
+
+#perifericos-intro, #perifericos-video-section {
+    margin: 20px 15px;
+    padding: 20px;
+    background-color: #030000;
+    border: 2px solid #005b96;
+    border-radius: 12px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.perifericos-section-title {
+    color: #005b96;
+    font-size: 1.8em;
+    text-align: left;
+    text-align: justify;
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 3px dashed #ffab00;
+    color: #1E90FF; 
+  text-shadow: 
+    0 0 2px #1E90FF,
+    0 0 4px #5F9EA0,
+    0 0 6px rgba(30, 144, 255, 0.4);
+  font-weight: 600;
+  background: linear-gradient(90deg, #1E90FF, #87CEFA);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.perifericos-info {
+    margin: 15px 0;
+}
+
+.perifericos-text {
+    line-height: 1.8;
+    font-size: 1.15em;
+    margin: 12px 0;
+    color: #ffffff;
+}
+
+.perifericos-video {
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #ffab00;
+    border-radius: 8px;
+}
+
+
+#perifericos-footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #005b96;
+    color: #ffffff;
+    margin: 0;
+}
+
+.perifericos-footer-text {
+    margin: 0;
+    font-size: 1em;
+}
+
+
+
+/* Lado de Tipos de Periféricos de Almacenamiento */
+#body-tipos-perifericos {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0011fa83; 
+    color: #2d3436;
+}
+
+#tipos-perifericos-header {
+    background-color: #2d3436; 
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 10px;
+    border-bottom: 4px solid #55efc4; 
+}
+
+.tipos-perifericos-title {
+    margin: 0;
+    font-size: 2.4em;
+    padding: 10px;
+     color: #ffffff;
+  text-shadow: 
+    0 0 2px #ffffff,
+    0 0 4px rgba(255, 255, 255, 0.4),
+    0 0 6px rgba(255, 255, 255, 0.2);
+  font-weight: 600;
+  background: linear-gradient(90deg, #ffffff, #dddddd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.tipos-perifericos-img {
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #55efc4;
+    border-radius: 10px;
+}
+
+#tipos-perifericos-intro, #tipos-perifericos-video-section {
+    margin: 20px 15px;
+    padding: 20px;
+    background-color: #eeff0083;
+    border: 2px solid #2d3436;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+}
+
+.tipos-perifericos-section-title {
+    color: #2d3436;
+    font-size: 1.7em;
+    text-align: center;
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 2px dashed #55efc4;
+}
+
+.tipos-perifericos-info {
+    margin: 15px 0;
+
+}
+
+.tipos-perifericos-text {
+    line-height: 1.7;
+    font-size: 1.1em;
+    margin: 10px 0;
+    text-align: justify;
+}
+
+.tipos-perifericos-video {
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #55efc4;
+    border-radius: 8px;
+}
+
+#tipos-perifericos-nav {
+    text-align: center;
+    margin: 20px;
+}
+
+.tipos-perifericos-nav-link {
+    color: #2d3436;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 8px 15px;
+    border: 2px solid #55efc4;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.tipos-perifericos-nav-link:hover {
+    background-color: #55efc4;
+    color: #2d3436;
+}
+
+#tipos-perifericos-footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #2d3436;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.tipos-perifericos-footer-text {
+    margin: 0;
+    font-size: 1em;
+}
+
+
+
+
+
+
+/* Lado de Nuevos Tipos de Periféricos de Almacenamiento */
+#body-nuevos-perifericos {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; 
+    color: #2d3436;
+}
+
+#nuevos-perifericos-header {
+    background-image: url(https://guru-soft.com/wp-content/uploads/2024/06/Unidades-almacenamiento.png);
+    background-position: center;
+    background-size: 100%;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 10px;
+    border-bottom: 4px solid #fab1a0; 
+}
+
+.nuevos-perifericos-title {
+    margin: 0;
+    font-size: 2.4em;
+    padding: 10px;
+    text-shadow: 0 0 5px #fab1a0, 0 0 10px #fab1a0; 
+}
+
+.nuevos-perifericos-img {
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #fab1a0;
+    border-radius: 10px;
+}
+
+
+.nuevos-perifericos-caption {
+    font-style: italic;
+    color: #fab1a0;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}
+
+#nuevos-perifericos-intro, #nuevos-perifericos-video-section {
+    margin: 20px 15px;
+    padding: 20px;
+    background-color: #273fc769;
+    border: 2px solid #6c5ce7;
+    border-radius: 12px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.nuevos-perifericos-section-title {
+    color: #6c5ce7;
+    font-size: 1.7em;
+    text-align: center;
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 2px dashed #fab1a0;
+    text-shadow: 0 0 3px #fab1a0; 
+    
+}
+
+.nuevos-perifericos-info {
+    margin: 15px 0;
+}
+
+.nuevos-perifericos-text {
+    line-height: 1.7;
+    font-size: 1.1em;
+    margin: 10px 0;
+    color: #ffffff;
+    text-align: justify;
+}
+
+.nuevos-perifericos-video {
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #fab1a0;
+    border-radius: 8px;
+}
+
+#nuevos-perifericos-nav {
+    text-align: center;
+    margin: 20px;
+}
+
+.nuevos-perifericos-nav-link {
+    color: #6c5ce7;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 8px 15px;
+    border: 2px solid #fab1a0;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.nuevos-perifericos-nav-link:hover {
+    background-color: #fab1a0;
+    color: #6c5ce7;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3); 
+}
+
+#nuevos-perifericos-footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #6c5ce7;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.nuevos-perifericos-footer-text {
+    margin: 0;
+    font-size: 1em;
+}
+
+
+
+
+
+/* Lado de Historia de los Microprocesadores */
+#body-microprocesadores {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dfe6e9; 
+    color: #2d3436;
+}
+
+#microprocesadores-header {
+    background-image: url(https://www.derichebourgespana.com/wp-content/uploads/2021/10/microprocesador.jpg);
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 10px;
+    border-bottom: 4px solid #f1c40f; 
+}
+
+.titulo {
+    margin: 0;
+    font-size: 2.4em;
+    padding: 10px;
+    text-shadow: 0 0 5px #f1c40f, 0 0 10px #f1c40f; 
+}
+
+.imagen {
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #f1c40f;
+    border-radius: 10px;
+}
+
+.texto-caption {
+    font-style: italic;
+    color: #f1c40f;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}
+
+#microprocesadores-intro, #microprocesadores-video-section {
+    margin: 20px 15px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #0984e3;
+    border-radius: 12px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.texto-titulo {
+    color: #0984e3;
+    font-size: 1.7em;
+    text-align: center;
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 2px dashed #f1c40f;
+    text-shadow: 0 0 3px #f1c40f; 
+}
+
+.info {
+    margin: 15px 0;
+    text-align: justify;
+}
+
+.texto {
+    line-height: 1.7;
+    font-size: 1.1em;
+    margin: 10px 0;
+    text-align: justify;
+}
+
+.video {
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #f1c40f;
+    border-radius: 8px;
+}
+
+#microprocesadores-nav {
+    text-align: center;
+    margin: 20px;
+}
+
+.link-nav {
+    color: #0984e3;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 8px 15px;
+    border: 2px solid #f1c40f;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.link-nav:hover {
+    background-color: #f1c40f;
+    color: #0984e3;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3); 
+}
+
+
+
+/* Lado de El M.2 SATA */
+#body-mp2-sata {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fd080083; 
+    color: #2d3436;
+}
+
+#mp2-sata-header {
+    background-image: url(https://media.kingston.com/kingston/headers/ktc-header-inudstrial-ssd-product-md.jpg);
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 10px;
+    border-bottom: 4px solid #ff7675; 
+}
+
+.mp2-sata-title {
+    margin: 0;
+    font-size: 2.4em;
+    padding: 10px;
+    text-shadow: 0 0 5px #ff7675, 0 0 10px #ff7675; 
+}
+
+.mp2-sata-img {
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #ff7675;
+    border-radius: 10px;
+}
+
+.mp2-sata-caption {
+    font-style: italic;
+    color: #ff7675;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}
+
+#mp2-sata-intro, #mp2-sata-video-section {
+    margin: 20px 15px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #636e72;
+    border-radius: 12px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.mp2-sata-section-title {
+    color: #636e72;
+    font-size: 1.7em;
+    text-align: center;
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 2px dashed #ff7675;
+    text-shadow: 0 0 3px #ff7675; 
+}
+
+.mp2-sata-info {
+    margin: 15px 0;
+    text-align: justify;
+}
+
+.mp2-sata-text {
+    line-height: 1.7;
+    font-size: 1.1em;
+    margin: 10px 0;
+    text-align: justify;
+}
+
+.mp2-sata-video {
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #ff7675;
+    border-radius: 8px;
+}
+
+#mp2-sata-nav {
+    text-align: center;
+    margin: 20px;
+}
+
+.mp2-sata-nav-link {
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 8px 15px;
+    border: 2px solid #ff7675;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+    background-color: brown;
+}
+
+.mp2-sata-nav-link:hover {
+    background-color: #fffb00;
+    color: #636e72;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3); 
+}
